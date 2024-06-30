@@ -30,7 +30,9 @@ class MenuController: UIViewController {
         let data: String = url!.lowercased()
         // dfdgdff
         // dfdgdf
-        
+        // dfdgdf
+        // dfdgdf
+
         if let URL = url {
             let data: String = URL.capitalized
             let datea: String = URL.capitalized
