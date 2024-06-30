@@ -13,6 +13,11 @@
 		8C6FE1CD2C1F56D300D78BE1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8C6FE1CC2C1F56D300D78BE1 /* Base */; };
 		8C6FE1CF2C1F56D400D78BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6FE1CE2C1F56D400D78BE1 /* Assets.xcassets */; };
 		8C6FE1D22C1F56D400D78BE1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8C6FE1D12C1F56D400D78BE1 /* Base */; };
+		8C6FE1DA2C1F5CB100D78BE1 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FE1D92C1F5CB100D78BE1 /* GameController.swift */; };
+		8C6FE1DC2C288FC900D78BE1 /* RunningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FE1DB2C288FC900D78BE1 /* RunningController.swift */; };
+		8C6FE1DE2C28904C00D78BE1 /* Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FE1DD2C28904C00D78BE1 /* Sensors.swift */; };
+		8C93C1EF2C31CBEA007F40B4 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93C1EE2C31CBEA007F40B4 /* MyExtensions.swift */; };
+		8CFED7AC2C31D09A00303EE4 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFED7AB2C31D09A00303EE4 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8C6FE1CE2C1F56D400D78BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C6FE1D12C1F56D400D78BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C6FE1D32C1F56D400D78BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6FE1D92C1F5CB100D78BE1 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		8C6FE1DB2C288FC900D78BE1 /* RunningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningController.swift; sourceTree = "<group>"; };
+		8C6FE1DD2C28904C00D78BE1 /* Sensors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensors.swift; sourceTree = "<group>"; };
+		8C93C1EE2C31CBEA007F40B4 /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		8CFED7AB2C31D09A00303EE4 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		8C6FE1C42C1F56D300D78BE1 /* Class24B-ios-2 */ = {
 			isa = PBXGroup;
 			children = (
+				8CFED7AB2C31D09A00303EE4 /* MenuController.swift */,
+				8C6FE1DB2C288FC900D78BE1 /* RunningController.swift */,
 				8C6FE1C52C1F56D300D78BE1 /* AppDelegate.swift */,
 				8C6FE1C72C1F56D300D78BE1 /* SceneDelegate.swift */,
 				8C6FE1C92C1F56D300D78BE1 /* ViewController.swift */,
@@ -63,6 +75,9 @@
 				8C6FE1CE2C1F56D400D78BE1 /* Assets.xcassets */,
 				8C6FE1D02C1F56D400D78BE1 /* LaunchScreen.storyboard */,
 				8C6FE1D32C1F56D400D78BE1 /* Info.plist */,
+				8C6FE1D92C1F5CB100D78BE1 /* GameController.swift */,
+				8C6FE1DD2C28904C00D78BE1 /* Sensors.swift */,
+				8C93C1EE2C31CBEA007F40B4 /* MyExtensions.swift */,
 			);
 			path = "Class24B-ios-2";
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFED7AC2C31D09A00303EE4 /* MenuController.swift in Sources */,
+				8C93C1EF2C31CBEA007F40B4 /* MyExtensions.swift in Sources */,
 				8C6FE1CA2C1F56D300D78BE1 /* ViewController.swift in Sources */,
+				8C6FE1DA2C1F5CB100D78BE1 /* GameController.swift in Sources */,
 				8C6FE1C62C1F56D300D78BE1 /* AppDelegate.swift in Sources */,
+				8C6FE1DC2C288FC900D78BE1 /* RunningController.swift in Sources */,
 				8C6FE1C82C1F56D300D78BE1 /* SceneDelegate.swift in Sources */,
+				8C6FE1DE2C28904C00D78BE1 /* Sensors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
